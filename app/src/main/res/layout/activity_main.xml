@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:paddingRight="30dp"
+    android:paddingLeft="30dp"
+    android:layout_gravity="center"
+    android:background="@android:color/white"
+    tools:context=".MainActivity">
+
+    <!--  Email Label -->
+<TextView
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:text="Veuillez choisir un Service"
+    android:textSize="20dp"
+    android:layout_marginTop="30dp"
+    android:gravity="center_horizontal"
+    android:textStyle="italic|bold"
+    android:textColor="#696969"/>
+    <Button
+        android:id="@+id/bt_Finance"
+        android:layout_marginTop="20dp"
+        android:elevation="8dp"
+        android:layout_width="match_parent"
+        android:layout_height="70dp"
+        android:background="@android:color/holo_blue_dark"
+        android:text="Finance"
+        android:textColor="@android:color/white" />
+
+    <Button
+        android:id="@+id/bt_B3"
+        android:layout_marginTop="20dp"
+        android:elevation="8dp"
+        android:layout_width="match_parent"
+        android:layout_height="70dp"
+        android:background="@android:color/holo_blue_dark"
+        android:text="B3"
+        android:textColor="@android:color/white"/>
+
+    <Button
+        android:id="@+id/bt_Cnam"
+        android:layout_marginTop="20dp"
+        android:elevation="8dp"
+        android:layout_width="match_parent"
+        android:layout_height="70dp"
+        android:background="@android:color/holo_blue_dark"
+        android:text="CNAM"
+        android:textColor="@android:color/white" />
+
+    <!-- Link to Registration Screen -->
+
+
+</LinearLayout>
+
